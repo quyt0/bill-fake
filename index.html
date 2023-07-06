@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./fonts/stylesheet.css">
+</head>
+<body>
+    <div class="info-box">
+        <label for="stk" style="font-size: 30px;">Số tài khoản:</label>
+        <input type="text" id="stk" style="height: 50px; font-size: 40px;">
+        <label for="ctk" style="font-size: 30px;">Chủ tài khoản:</label>
+        <input type="text" id="ctk" style="height: 50px; font-size: 40px;">
+        <label for="nh" style="font-size: 30px;">Ngân hàng:</label>
+        <select id="nh" style="height: 50px; font-size: 40px;">
+            <option value="mb">MBBank</option>
+            <option value="vtp">ViettelPay</option>
+            <option value="vietin">VietinBank</option>
+            <option value="bidv">BIDV</option>
+            <option value="agri">Agribank</option>
+            <option value="vcb">VietcomBank</option>
+            <option value="vpb">VPBank</option>
+            <option value="vib">VIB</option>
+            <option value="exim">EXIMBANK</option>
+            <option value="shb">SHB</option>
+            <option value="tpb">TPBank</option>
+            <option value="tcb">Techcombank</option>
+            <option value="acb">ACB</option>
+            <option value="maritime">Hang hai - MaritimeBank</option>
+            <option value="cake">Cake by VPBank</option>
+            <option value="ubank">UBank</option>
+            <option value="vnpt">VNPT Money</option>
+            <option value="vtmoney">Viettel Money</option>
+            <option value="timo">Timo by Ban Viet</option>
+            <option value="lviet">Lien Viet Post Bank</option>
+            <option value="donga">Dong A Bank</option>
+            <option value="baca">Bac A Bank</option>
+            <option value="banviet">Ban Viet</option>
+            <option value="kienlong">Kien Long</option>
+            <option value="shinhan">Shinhan Bank</option>
+            <option value="woori">Woori</option>
+            <option value="ncb">Quoc Dan NCB</option>
+        </select>
+        <label for="st" style="font-size: 30px;">Số tiền chuyển (nghìn đồng):</label>
+        <input type="text" id="st" style="height: 50px; font-size: 40px;">
+        <div class="tmp" style="padding: 80px;"></div>
+    </div>
+    <button onclick="Create()" style="width: 200px; height: 200px; font-size: 40px;">Create</button>
+    <button onclick="make_base()" style="width: 200px; height: 200px; font-size: 40px;">Logo</button>
+    <button onclick="DownloadCanvasAsImage()" style="width: 200px; height: 200px; font-size: 40px;">Download</button>
+    <canvas id="canvas" width="1080" height="2400"></canvas>
+</body>
+<script src="script.js"></script>
+</html>
