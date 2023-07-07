@@ -25,7 +25,8 @@ var objectArray  = {
     "kienlong": "NGAN HANG TMCP KIEN LONG",
     "shinhan": "NGAN HANG SHINHAN (SHINHAN BANK)",
     "woori": "NGAN HANG WOORI (WOORI BANK)",
-    "ncb": "TMCP QUOC DAN (NCB)"
+    "ncb": "TMCP QUOC DAN (NCB)",
+    "sea": "TMCP Đông Nam Á (SeABank)"
 };
 
 function make_base()
