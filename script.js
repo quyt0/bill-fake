@@ -103,7 +103,8 @@ function Create() {
         context.fillText(stk, 200, 835);
         var nh = document.getElementById("nh").value;
         context.fillText(objectArray[nh], 200, 885);
-        context.fillText("5553230405", 800, 1093);
+	var rstk = getRandomInt(1000000000, 9999999999).toString();
+        context.fillText(rstk, 800, 1093);
         context.textAlign = "end";
         context.font = "39px averta_std_cybold";
 	var nameid = getRandomInt(0, 8754);
