@@ -1,4 +1,4 @@
-namedat = [
+var namedat = [
     {
         "first_name": "Quỳnh",
         "last_name": "Nguyễn Thị Như",
