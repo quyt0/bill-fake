@@ -74,7 +74,7 @@ function Create() {
         context.font = "80px averta_std_cybold";
         context.textAlign = "center";
         var money = document.getElementById("st").value;
-        context.fillText(money.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",") + "VNĐ", 540, 400);
+        context.fillText(money.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",") + " VND", 540, 400);
         context.textAlign = "left";
         context.font = "45px averta_std_cybold";
         context.fillStyle="#000"
