@@ -1,4 +1,4 @@
-[
+namedat = [
     {
         "first_name": "Quỳnh",
         "last_name": "Nguyễn Thị Như",
@@ -18,13 +18,6 @@
         "last_name": "Đinh Văn",
         "full_name": "Đinh Văn Phượng",
         "last_name_group": "Đinh",
-        "gender": ""
-    },
-    {
-        "first_name": "Samuel",
-        "last_name": "Nguyễn Echam",
-        "full_name": "Nguyễn Echam Samuel",
-        "last_name_group": "Nguyễn",
         "gender": ""
     },
     {
@@ -109,13 +102,6 @@
         "last_name": "Phạm Minh",
         "full_name": "Phạm Minh Quân",
         "last_name_group": "Phạm",
-        "gender": ""
-    },
-    {
-        "first_name": "Sanh",
-        "last_name": "Võ Thanh",
-        "full_name": "Võ Thanh Sanh",
-        "last_name_group": "Võ",
         "gender": ""
     },
     {
