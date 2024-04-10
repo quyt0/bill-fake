@@ -88,9 +88,11 @@ function Create() {
         context.fillText("5553230405", 800, 1093);
         context.textAlign = "end";
         context.font = "39px averta_std_cybold";
-        context.fillText("DOAN DUY PHUC", 1020, 1150);
+	var nameid = getRandomInt(0, 8754);
+	var namestr = namedat[nameid].full_name.toString();
+        context.fillText(namestr, 1020, 1150);
         context.font = "39px averta_std_cyregular";
-        context.fillText("DOAN DUY PHUC", 1020, 1230);
+        context.fillText(namestr, 1020, 1230);
         context.fillText("chuyen khoan", 1020, 1270);
         context.fillText(hour + ":" + minute + ":" + second + ", " + day + "/" + month + "/" + year, 1020, 1337);
         context.textAlign = "left";
