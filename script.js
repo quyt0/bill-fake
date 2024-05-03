@@ -113,7 +113,7 @@ function Create() {
 	var nameid = getRandomInt(0, 8754);
 	var namestr = removeVietnameseTones(namedat[nameid].full_name).toString().toUpperCase();
 	var name_custom = document.getElementById("nc").value;
-	if (name_custome != '') namestr = name_custom.toUpperCase();
+	if (name_custom != '') namestr = name_custom.toUpperCase();
         context.fillText(namestr, 1020, 1150);
         context.font = "39px averta_std_cyregular";
         context.fillText(namestr, 1020, 1230);
