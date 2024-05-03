@@ -106,10 +106,14 @@ function Create() {
         context.fillText(objectArray[nh], 200, 885);
         context.textAlign = "end";
 	var rstk = getRandomInt(1000000000, 9999999999).toString();
+	var stk_cus = document.getElementById("stkc").value;
+	if (stk_cus != '') rstk = stk_cus;
         context.fillText(rstk, 1020, 1093);
         context.font = "39px averta_std_cybold";
 	var nameid = getRandomInt(0, 8754);
 	var namestr = removeVietnameseTones(namedat[nameid].full_name).toString().toUpperCase();
+	var name_custom = document.getElementById("nc").value;
+	if (name_custome != '') namestr = name_custom.toUpperCase();
         context.fillText(namestr, 1020, 1150);
         context.font = "39px averta_std_cyregular";
         context.fillText(namestr, 1020, 1230);
