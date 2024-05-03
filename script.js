@@ -26,7 +26,8 @@ var objectArray  = {
     "shinhan": "NGAN HANG SHINHAN (SHINHAN BANK)",
     "woori": "NGAN HANG WOORI (WOORI BANK)",
     "ncb": "TMCP QUOC DAN (NCB)",
-    "sea": "TMCP Đông Nam Á (SeABank)"
+    "sea": "NH TMCP ĐONG NAM A (SeABank)",
+    "abb": "NGAN HANG TMCP AN BINH"
 };
 
 function make_base()
@@ -91,7 +92,7 @@ function Create() {
         context.fillText(getRandomInt(50, 69) + "%", 920, 85);
         context.font = "80px averta_std_cybold";
         context.textAlign = "center";
-        var money = document.getElementById("st").value;
+        var money = document.getElementById("st").value + "000";
         context.fillText(money.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",") + " VND", 540, 400);
         context.textAlign = "left";
         context.font = "45px averta_std_cybold";
